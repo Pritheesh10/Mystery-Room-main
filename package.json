@@ -1,0 +1,38 @@
+{
+  "name": "xplore26-treasure-hunt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "XPLORE'26 — the Mystery Room, a searchable 3D room puzzle (guide section 8).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "shoot": "node scripts/shoot-room.mjs",
+    "perf": "node scripts/perf-room.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.0",
+    "next": "^16.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/three": "^0.180.0",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "^16.0.0",
+    "playwright": "^1.62.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
